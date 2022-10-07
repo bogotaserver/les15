@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Contact opnemen</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="main-header-container">
+                <img src="https://via.placeholder.com/100x100" alt="placeholder" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mijncv.html">Mijn CV</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <form class="container" action="https://formspree.io/f/xbjbygwd" method="post">
+                <div class="outer-container">
+                    <h2>Contactformulier</h2>
+                    <div class="inner-container">
+                        <label for="voornaam"><b>Voornaam:</b></label>
+                        <input type="text" placeholder="uw naam" name="voornaam" id="voornaam">
+                    </div>
+                    <div class="inner-container">
+                        <label for="achternaam"><b>Achternaam:</b></label>
+                        <input type="text" placeholder="uw naam" name="achternaam" id="achternaam">
+                    </div>
+                    <div class="inner-container">
+                        <label for="email"><b>E-mail:</b></label>
+                        <input type="email" placeholder="uw e-mail" name="email" id="email">
+                    </div>
+                    <div class="inner-container">
+                        <label for="telnum"><b>Telefoonnummer:</b></label>
+                        <input type="tel" placeholder="123456789" name="telnum" id="telnum">
+                    </div>
+                    <div class="inner-container">
+                        <label for="prefer-contact"><b>Voorkeur type contact</b></label>
+                        <input type="checkbox" naam="prefer-contact" id="prefer-contact" value="Telefonisch">Telefonisch
+                        <input type="checkbox" naam="prefer-contact" id="prefer-contact" value="email">E-mail
+                    </div>
+                    <div class="inner-container">
+                        <textarea placeholder="Reden voor aanvraag contact" name="vraag" rows="6" cols="50"></textarea>
+                    </div>
+                    <button>Verzend</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p><b><span class="footer-text">&#169; Copyright protected by XYZ</span></b></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.main-header {
+    background-color: yellow;
+    margin-bottom: 100px;
+}
+
+.main-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem;
+    background-color: blue;
+}
+
+ul:last-child {
+    margin-right: 2rem;
+}
+
+li:hover {
+    background-color: red;
+    position: relative;
+    top: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+}
+
+.intro-text {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.intro-picture {
+    margin: 0 auto;
+    align-self: center;
+}
+
+footer {
+    background-color: red;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    align-self: center;
+}
+
+thead {
+    font-weight: bold;
+}
+
+td {
+    padding: 5px;
+}
+
+table, td {
+    border: 2px solid yellow;
+    background-color: red;
+}
+
+.main-table {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+caption {
+    margin-bottom: 2px;
+    font-weight: 900;
+}
+
+input {
+    margin: 2px;
+}
+
+input:hover {
+    border-color: yellow;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    background-color: red;
+    padding: 10px;
+}
+
+.inner-container {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin-bottom: .2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 25% auto 25%;
+}
+
+.footer-text {
+    color: #222;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    background-color: yellow;
+}
